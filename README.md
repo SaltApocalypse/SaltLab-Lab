@@ -21,7 +21,9 @@ React · Vite · TypeScript · TanStack Router · Tailwind CSS · DaisyUI · Luc
 SaltLab-Lab/
 ├── .github/workflows/deploy.yml   # 构建 + GitHub Pages 部署
 ├── public/
-│   └── 404.html                   # 未知路径的 404（当前同样跳转主站）
+│   ├── 404.html                   # 未知路径的 404（当前同样跳转主站）
+│   ├── frago-dossier/             # FRAGO // DOSSIER 名片生成器构建产物
+│   └── infinite-title-generator/  # Infinite Title Generator 构建产物
 ├── src/
 │   ├── index.css                  # Tailwind + DaisyUI
 │   ├── main.tsx                   # 应用入口（TanStack Router）
@@ -37,6 +39,7 @@ SaltLab-Lab/
 
 ```text
 /infinite-title-generator/
+/frago-dossier/
 /project-x/
 /project-y/
 ```
